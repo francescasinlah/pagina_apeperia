@@ -1,28 +1,33 @@
 .head {
     color: var(--background-blanco);
-
+    /* específica el ancho del área de contenido de un elemento */
     width: 100%;
-
+    /* (tamaño de caja) calcula ancho y alto total de un elemento */
     box-sizing: border-box;
+    
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 
     padding-top: .75rem;
     padding-bottom: .75rem;
-
-    border-bottom: 1px solid var(--border-cabecera-mobile);
+    /* border-bottom: 1px solid var(--border-cabecera-mobile); */
 
     position: absolute;
 }
 
 .head__logo {
+    display: flex;
     margin-bottom: 1rem;
+    /* Ubica nuestros elementos en eje principal */
+    justify-content: space;
 }
 
 .head__navegacion {
-    text-align: center;
+    text-align: right; 
+
 }
 
 .head__enlace {

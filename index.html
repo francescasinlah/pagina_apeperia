@@ -19,11 +19,12 @@
     </head>
     <body>
         <header class="head container">
-
-            <img class="head__logo" src="img/logo" alt="Logo">
+             <!-- Para agregarle puntero al logo, llamé la carpeta y agregué el archivo del logo-->
+            <a href="head__logo" class="logo"><img src="img/logo-oscuro.svg"></a>
             <nav class="head__navegacion">
-                <ul>
-                    <li class="head__enlace"><a href="#">Sobre</a></li>
+                <!-- ul define una lista desordenada, li específica los ítems de la lista -->
+                <ul> 
+                    <li class="head__enlace"><a href="#">Sobre nosotros</a></li>
                     <li class="head__enlace"><a href="#">Planes</a></li>
                     <li class="head__enlace"><a href="#">Blog</a></li>
                     <li class="head__enlace"><a href="#">Destacados</a></li>
@@ -35,11 +36,12 @@
         <main>
             <section class="llamada container">
                 <h1 class="llamada__titulo">Aplicaciones en la medida</h1>
-                <p class="llamada__texto"> es una empresa emergente con una manera inovadora de comprar y crear aplicaciones móviles y web.</p>
+                <p class="llamada__texto">Apeperia es una empresa emergente con una manera 
+                <br> innovadora de comprar y crear aplicaciones móviles y web.</br></p>
                 <a class="llamada__boton boton" href="#">Conozca los planes</a>
             </section>
             <section class="destacados container">
-                <h2 class="destacados__titulo">Destacados</h2>
+                <h2 class="destacados__titulo">DESTACADOS</h2>
                 <a href="#">
                     <figure class="destacados__panel">
                         <img src="img/empezando-a-crear-logo.png" alt="Panel de la publicación sobre la creación del logotipo" class="destacados__panel-imagen">
@@ -48,8 +50,8 @@
                 </a>
                 <a href="#">
                     <figure class="destacados__panel">
-                        <img src="img/sugestiones-fotografias.png" alt="Painel de la publicación sobre consejos de fotografía" class="destacados__panel-imagen">
-                        <figC class="destacados__panel-texto">¿Trabajas con fotografía? Conozca esos consejos</figC>
+                        <img src="img/sugestiones-fotografias.png" alt="Panel de la publicación sobre consejos de fotografía" class="destacados__panel-imagen">
+                        <figC class="destacados__panel-texto">¿Trabajas con fotografía? Conozca estos consejos</figC>
                     </figure>
                 </a>
                 <a href="" class="destacados__boton boton">Recibir destacados por correo</a>
@@ -58,20 +60,53 @@
                 <ul class="diferenciales__lista">
                     <li class="diferenciales__item diferenciales__item-reloj">
                         <h2 class="item__titulo">Tiempo</h2>
-                        <p class="item__texto">¡Tiempo es importante! Trabajamos en ritmo acelerado, para atender los plazos rigurosamente.</p>
+                        <p class="item__texto">¡Tiempo es importante! <br>Trabajamos en ritmo acelerado,</p> para atender los plazos rigurosamente.</p>
                     </li>
-                    <li class="diferenciales__item diferenciales__item-quimica">
-                        <h2 class="item__titulo">Especialistas</h2>
-                        <p class="item__texto">Equipo especializada, con experiéncia de mercado. Testamos todos los productos antes del lanzamiento.</p>
+                    <li class="diferenciales__item diferenciales__item-quimica"> 
+                        <h2 class="item__titulo">Enfoque</h2>
+                        <p class="item__texto">Nos enfocamos en el pequeño y mediano emprendedor, ofrecemos servicios de calidad con precios accesibles.</p>   
                     </li>
                 </ul>
+                <ul class="diferenciales__lista">
+                    <li class="diferenciales__item diferenciales__item-dinero">
+                        <h2 class="item__titulo">Especialistas</h2>
+                        <p class="item__texto">Equipo especializada, con <br> experiencia de mercado.</p> Testeamos todos los productos antes del lanzamiento.</p>   
+                    </li>
+                </ul>
+                
             </section>
             <section class="sobre_nosotros container">
-                <div class="sobre_nosotros__contenido">
-                   
-                    <p class="sobre_nosotros__texto">Desarrollamos aplicaciones para todas plataformas</p>
+                <ul class="sobre_nosotros_left">
+                    <ul class="sobre_nosotros__titulo">
+                        <h2>SOBRE NOSOTROS</h2>
+                    </ul>
+                    <div class="sobre_nosotros__texto">
+                        <p>¡Creamos aplicaciones personalizados para todas las personas!</p>
+                    </div>
+                    <div class="sobre_nosotros__texto2">
+                        <p><br>La manutención de una aplicación no puede ser un costo extra para<br>
+                            el cliente. En Apeperia firmas nuestro servicio la manutención ya se<br>
+                            incluye en el servicio. De esa manera no te preocupes con la<br> 
+                            atualización, es por cuenta de nosotros.</br></p>
+
+                    <section class="sobre_nosotros__texto3">
+                    <p>¡Tenemos un equipo especializado y exclusivo para proyectos increíbles!</p>
+
+                    
+                    <div class ="sobre_nosotros__texto4">
+                        <p>Desarrollamos aplicaciones para todas las plataformas</p>
+                    </div> 
+                    </section>
                 </div>
+                    <img class="sobre_nosotros__image" src="img/sobre-apeperia.png">
             </section>
+
+
+
+
+
+
+
             <section class="planes container">
                 <h2 class="planes__titulo">Planes</h2>
                 <ul class="planes__tarjetas">
@@ -80,6 +115,8 @@
                         <articule class="tarjetas__contenido">
                             <p class="tarjetas__precio"><em>$ 500</em></p>
                             <p class="tarjetas__texto">5 manutenciones mensuales</p>
+                            <p class="tarjetas__texto">App SEO</p>
+                            <p class="tarjetas__texto">1 sistema operacional</p>
                             <a href="#" class="tarjetas__boton tarjetas__boton--start boton">Asignar plan</a>
                         </articule>
                     </li>
@@ -89,13 +126,14 @@
                             <p class="tarjetas__precio"><em>$ 1500</em></p>
                             <p class="tarjetas__texto">20 manutenciones mensuales</p>
                             <p class="tarjetas__texto">4 sistemas operacionales</p>
+                            <p class="tarjetas__texto">24h de atendimiento</p>
                             <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Asignar plan</a>
                         </articule>
                     </li>
                     <li class="tarjetas tarjetas--mega">
                         <h3 class="tarjetas__titulo">Mega</h3>
                         <articule class="tarjetas__contenido">
-                            <p class="tarjetas__precio"><em>$ 1500</em></p>
+                            <p class="tarjetas__precio"><em>$ 1000</em></p>
                             <p class="tarjetas__texto">10 manutenciones mensuales</p>
                             <p class="tarjetas__texto">App SEO</p>
                             <p class="tarjetas__texto">2 sistemas operacionales</p>
@@ -125,20 +163,31 @@
                 <video src="img/formacion-java.mp4" class="institucional__video" controls></video>
             </section>
             <footer class="footer container">
-                <img src="img/logo-apeperia.svg" alt="" class="footer__logo">
+                <img src="img/logo-oscuro.svg" alt="" class="footer__logo">
                 <ul class="footer__social">
-                    <li><a href="#" class="footer__midia"><img src="img/facebook.png" alt="Ícono de Facebook"></a></li>
-                    <li><a href="#" class="footer__midia"><img src="img/instagram.png" alt="Ícono de Instagram"></a></li>
-                    <li><a href="#" class="footer__midia"><img src="img/twitter.png" alt="Ícono de Twitter"></a></li>
+                    <li><a href="#" class="footer__midia"><img src="img/facebook.png" alt="Ícono de facebook"></a></li>
+                    <li><a href="#" class="footer__midia"><img src="img/twitter.png" alt="Ícono de twitter"></a></li>
+                    <li><a href="#" class="footer__midia"><img src="img/instagram.png" alt="Ícono de instagram"></a></li>
                 </ul>
                 <nav>
                     <ul class="footer__navegacion">
-                        <li class="footer__enlace"><a href="#">Sobre</a></li>
+                        <li class="footer__enlace"><a href="#">Sobre nosotros</a></li>
                         <li class="footer__enlace"><a href="#">Planes</a></li>
+                        <li class="footer__enlace"><a href="#">Blog</a></li>
                         <li class="footer__enlace"><a href="#">Destacados</a></li>
                         <li class="footer__enlace"><a href="#">Institucional</a></li>
+                        <li class="footer__enlace"><a href="#">Contacto</a></li>
                     </ul>
                 </nav>
+            </footer>
+
+
+
+
+        
+
+
+
             </footer>
         </main>
     </body>

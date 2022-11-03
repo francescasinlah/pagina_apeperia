@@ -5,6 +5,8 @@
 
     color: var(--background-blanco);
     text-align: center;
+    background-image: url(../img/bg-intro.jpg);
+    background-size: cover;
     
     background-color: var(--background-llamada-mobile);
 
@@ -14,17 +16,15 @@
 
 .llamada__titulo {
     font-family: var(--montserrat);
-    font-size: 2rem;
+    font-size: 52px;
     font-weight: 700;
     text-transform: uppercase;
-
     margin-bottom: 1.5rem;
 }
 
 .llamada__texto {
     font-size: 1.25rem;
     line-height: normal;
-
     margin: 0 auto 2.5rem;
 }
 

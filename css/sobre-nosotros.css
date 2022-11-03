@@ -1,6 +1,21 @@
-.sobre-nosotros {
+.sobre_nosotros {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    border:solid yellow;
+}
+
+.sobre_nosotros_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid red;
+}
+
+.sobre_nosotros__image{
+    border: solid blue;
+    
 }
 
 .sobre_nosotros__titulo {
